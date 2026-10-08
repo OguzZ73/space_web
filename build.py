@@ -10,6 +10,8 @@ def build():
     # Asset'leri kopyala
     if os.path.exists('olay-ufku/assets'):
         shutil.copytree('olay-ufku/assets', 'public/assets')
+    if os.path.exists('olay-ufku/favicon.ico'):
+        shutil.copy('olay-ufku/favicon.ico', 'public/favicon.ico')
 
     # HTML başlık ve stil kodları (sunucu.py'deki ile aynı)
     HEAD = (
