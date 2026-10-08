@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "olay-ufku", "runtimeExecutable": "python3", "runtimeArgs": ["sunucu.py"], "port": 8765 }
+  ]
+}
