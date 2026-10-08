@@ -5,6 +5,8 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'olay-ufku')
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8765
 HEAD = ('<!doctype html><html lang="tr"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">'
+        '<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">'
+        '<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">'
         '<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}'
         'body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>')
 
